@@ -8,5 +8,8 @@ public class Main {
 		m.addItem("Masala Dosa", 40);
 		m.addItem("Chole Bhature", 50);
 		m.show();
+		
+		System.out.println(m.getPrice("Idli"));
+		System.out.println(m.getPrice("Pizza"));	
 	}
 }
