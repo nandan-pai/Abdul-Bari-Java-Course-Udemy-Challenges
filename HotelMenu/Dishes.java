@@ -8,13 +8,9 @@ class Dishes {
 	}
 }
 
-class Menu extends Dishes{
+class Menu {
 	Dishes dishesMenu[] = new Dishes[100];
 	int dishCount = 0;
-	
-	public Menu(String dName, int price) {
-		super(dName, price);
-	}
 	
 	public void addItem(String dName, int price) {
 		dishesMenu[dishCount] = new Dishes(dName, price);
